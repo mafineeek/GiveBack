@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from "../components/Navbar.tsx";
 import {Footer} from "../components/Footer.tsx";
 import {FaCircleUser, FaStar, FaRegStar, FaStarHalfStroke, FaEnvelope} from "react-icons/fa6";
