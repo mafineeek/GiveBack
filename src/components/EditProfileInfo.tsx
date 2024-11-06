@@ -14,7 +14,7 @@ function EditProfileInfo() {
                 <label className="block text-sm font-medium text-primary mb-2">Opis:</label>
                 <textarea
                     className="border-primary border-solid border-2mt-1 block w-full rounded-md shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50"
-                    rows="4" placeholder="Wprowadź opis..."></textarea>
+                    rows={4} placeholder="Wprowadź opis..."></textarea>
             </div>
             <div>
                 <label className="block text-sm font-medium text-primary mb-2">Kontakt: (opcjonalnie)</label>
