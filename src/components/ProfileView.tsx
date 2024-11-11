@@ -1,11 +1,11 @@
 import {FaCircleUser, FaEnvelope, FaRegStar, FaStar, FaStarHalfStroke} from "react-icons/fa6";
 
-function ProfileViev() {
+function ProfileView() {
     return (
         <>
             <FaCircleUser className="text-white text-8xl mb-2"/>
             <h1>Jan Kowalski</h1>
-            <h1 className="mt-4 text-xl">
+            <h1 className="mt-4 text-xl text-justify">
                 Zdecydowałem się pomagać potrzebującym i oddawać
                 swoje nieużywane ubrania, bo widziałem, jak
                 wielu ludzi w mojej społeczności zmaga się z
@@ -33,4 +33,4 @@ function ProfileViev() {
         </>
     );
 }
-export default ProfileViev;
+export default ProfileView;
