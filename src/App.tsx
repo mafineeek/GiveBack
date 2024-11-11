@@ -5,6 +5,8 @@ import YourProfile from "./pages/YourProfile.tsx";
 import Register from "./pages/Register.tsx";
 import OrganisationRegister from "./pages/OrganisationRegister.tsx";
 import Login from "./pages/Login.tsx";
+import Organisation from "./pages/Organisation.tsx";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
             <Route path="/register" element={<Register/>}/>
             <Route path="/organisationregister" element={<OrganisationRegister/>}/>
             <Route path="/login" element={<Login/>}/>
+            <Route path="/organisation" element={<Organisation/>}/>
         </Routes>
       </Router>
     </>
