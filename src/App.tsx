@@ -5,8 +5,10 @@ import YourProfile from "./pages/YourProfile.tsx";
 import Register from "./pages/Register.tsx";
 import OrganisationRegister from "./pages/OrganisationRegister.tsx";
 import Login from "./pages/Login.tsx";
+<<<<<<< HEAD
 import {Marketplace} from "./pages/Marketplace";
 import AddListing from "./pages/AddListing.tsx";
+import Organisation from "./pages/Organisation.tsx";
 
 function App() {
   return (
@@ -20,7 +22,8 @@ function App() {
             <Route path="/organisationregister" element={<OrganisationRegister/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/marketplace" element={<Marketplace />}/>
-          <Route path={"/add"} element={<AddListing />} />
+            <Route path={"/add"} element={<AddListing />} />
+            <Route path="/organisation" element={<Organisation/>}/>
         </Routes>
       </Router>
     </>
